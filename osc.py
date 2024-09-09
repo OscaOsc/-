@@ -66,4 +66,4 @@ while inpt1 == gamePlay[0]:
         break
     elif inpt2 == 2:
         print('게임을 계속합니다.')
-print('ByeBye')
+        print('ByeBye')
