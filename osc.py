@@ -2,7 +2,7 @@ print('이 게임은 AI와 승부하는 가위바위보 게임입니다. 게임�
 print('만약 게임을 하고 싶지 않다면 "게임을 종료한다."를 입력해주세요.')
 gamePlay = ['게임을 시작한다.', '게임을 종료한다.', '게임을 계속한다.']
 inpt1 = input('나:')
-if inpt1 != gamePlay[1] and gamePlay[0]:
+while inpt1 != gamePlay[1] and inpt1 != gamePlay[0]:
     print('잘못된 입력입니다. 다시 입력해주세요.')
     inpt1 = input('나:')
 if inpt1 == gamePlay[1]:
